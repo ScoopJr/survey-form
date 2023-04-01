@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Function scope example</title>
+    </head>
+
+    <body>
+
+        <!--1-->
+        <h1 id="title">Tokyo Gymnastics Club Feeback Form</h1>
+        <!--2-->
+        <p id="description">Thank you for taking the time to help us improve the club and curriculumn</p>
+        
+        <!--3-->
+        <form id="survey-form">
+            
+            <!--4--><!--10--><!--11-->
+            <label id="name-label">Name: 
+                <input id="name" type="text" placeholder="Enter your name" required />        </label>
+            <!--5--><!--6-->
+            <label id="email-label">Email: 
+                <input id="email" type="email" placeholder="Enter your email" required /></label>
+            <!--7--><!--8--><!--9-->
+            <label id="number-label">Contact number: 
+                <input id="number" type="number" min="0" max="9" placeholder="Please enter your contact number if you are happy to be contacted" /></label>
+            
+            <!--12-->
+            <label id="dropdown-label">Please select the class you are in: 
+                <select id="dropdown">
+                    <option value="Kids under 12"></option>
+                    <option value="Teenager Gymnastics"></option>
+                    <option value="Elite Athlete"></option>
+                    <option value="Social Gymnastics"></option>
+                </select>
+            </label>
+            
+            <!--13-->
+            <label id="satisfaction-label">Please select your level of satisfaction with your membership: 
+                <label id="satisfied-1">
+                    <input id="satisfied-1" name="satisfaction" type="radio" value="1 - Not at all Satisfied" />
+                    1 - Not at all Satisfied</label>
+                <label id="satisfied-2">
+                    <input id="satisfied-2" name="satisfaction" type="radio" value="2 - Partly Satisfied" />
+                    2 - Partly Satisfied</label>
+                <label id="satisfied-3">
+                    <input id="satisfied-3" name="satisfaction" type="radio" value="3 - Satisfied" />
+                    3 - Satisfied</label>
+                <label id="satisfied-4">
+                    <input id="satisfied-4" name="satisfaction" type="radio" value="4 - More than Satisfied" />
+                    4 - More than Satisfied </label>
+                <label id="satisfied-5">
+                    <input id="satisfied-5" name="satisfaction" type="radio" value="5 - Very Satisfied" />
+                    5 - Very Satisfied</label>
+            </label>
+            
+            <!--14-->
+            <label id="checkbox-label">What areas would you like to see improved?
+                <label id="checkbox-1">
+                    <input id="checkbox-1" type="checkbox" value="Gym equipment" />
+                    Gym equipment</label>
+                <label id="checkbox-2">
+                    <input id="checkbox-2" type="checkbox" value="Shower and changing room facilities" />
+                    Shower and changing room facilities</label>
+                <label id="checkbox-3">
+                    <input id="checkbox-3" type="checkbox" value="Reception are" />
+                    Reception area</label>
+                <label id="checkbox-4">
+                    <input id="checkbox-4" type="checkbox" value="Refreshments" />
+                    Refreshments</label>
+                <label id="checkbox-5">
+                    <input id="checkbox-5" type="checkbox" value="Coaching" />
+                    Coaching</label>
+                <label id="checkbox-6">
+                    <input id="checkbox-6" type="checkbox" value="Gym cleaning" />
+                    Gym cleaning</label>
+                <label id="checkbox-7">
+                    <input id="checkbox-7" type="checkbox" value="Website" />
+                    Website</label>
+            </label>
+
+            <!--15-->
+            <label id="comments-label">Please provide comments, feedback, or suggestions here: 
+                <textarea id="comments"></textarea></label>
+            
+            <!--16-->
+            <input id="submit" type="submit" value="Submit" />
+            
+        </form>
+
+    </body>
+</html>
